@@ -1,5 +1,5 @@
 <?php
-namespace \webd\html5;
+namespace webd\html5;
 
 
 class A extends Tag

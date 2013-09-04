@@ -1,4 +1,5 @@
 <?php
+namespace webd\html5;
 
 class Text extends Tag
 {

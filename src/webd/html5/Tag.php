@@ -1,6 +1,6 @@
 <?php
 
-namespace \webd\html5;
+namespace webd\html5;
 
 class Tag
 {
@@ -27,13 +27,13 @@ class Tag
     
     /**
      *
-     * @var HTMLTag[] 
+     * @var Tag[] 
      */
     protected $children = array();
     
     /**
      *
-     * @var HTMLTag 
+     * @var Tag 
      */
     protected $parent = null;
     
@@ -45,7 +45,7 @@ class Tag
     
 
     
-    public function appendChild(HTMLTag $child) {
+    public function appendChild(Tag $child) {
         $this->children[] = $child;
         $child->parent = $this;
     }
