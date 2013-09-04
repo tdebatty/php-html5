@@ -1,0 +1,7 @@
+{
+    "name":         "webd/html5",
+    "description":  "Object-oriented HTML5",
+    "autoload": {
+        "psr-0": {"": "src/"}
+    }
+}
