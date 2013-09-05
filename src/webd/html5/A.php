@@ -17,7 +17,6 @@ class A extends Tag
      */
     public $type = "";
     
-    const REL_NOFOLLOW = "nofollow";
     const REL_ALTERNATE = "alternate";
     const REL_AUTHOR = "author";
     const REL_BOOKMARK = "bookmark";
