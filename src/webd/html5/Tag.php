@@ -2,7 +2,7 @@
 
 namespace webd\html5;
 
-class Tag
+abstract class Tag
 {
     /*
      * Global HTML5 attributes
